@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://sys:password@123@mern-udemy-m3biw.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "myToken",
+  "githubClientId": "5922575eba4f6c255d4d",
+  "githubSecret": "9577121040b526df9bf76b51fde35ed8cfc9001c"
+}
