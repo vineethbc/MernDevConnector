@@ -23,7 +23,9 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
+    "axios": "^0.19.2",
     "concurrently": "^5.0.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "normalize-url": "^5.0.0"
   }
 }
