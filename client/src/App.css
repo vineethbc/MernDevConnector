@@ -439,6 +439,11 @@ button {
   grid-area: github;
 }
 
+.profile-github .profile-github-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .profile-github .repo {
   display: flex;
 }

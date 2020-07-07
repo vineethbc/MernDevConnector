@@ -29,16 +29,31 @@ const ProfileGithub = ({ username, getGithubRepos, repos }) => {
               </h4>
               <p>{repo.description}</p>
             </div>
-            <div>
-              <ul>
-                <li className="badge badge-primary">
-                  Stars: {repo.stargazers_count}
-                </li>
-                <li className="badge badge-dark">
-                  Watchers: {repo.watchers_count}
-                </li>
-                <li className="badge badge-light">Forks: {repo.forks_count}</li>
-              </ul>
+            <div className="profile-github-links">
+              <a
+                href={`${repo.html_url}/stargazers`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="badge badge-primary"
+              >
+                Stars: {repo.stargazers_count}
+              </a>
+              <a
+                href={`${repo.html_url}/watchers`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="badge badge-dark"
+              >
+                Watchers: {repo.watchers_count}
+              </a>
+              <a
+                href={`${repo.html_url}/network/members`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="badge badge-light"
+              >
+                Forks: {repo.forks_count}
+              </a>
             </div>
           </div>
         ))
